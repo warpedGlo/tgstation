@@ -90,8 +90,8 @@
 #define OPEN_HEAT_TRANSFER_COEFFICIENT 0.4
 /// a hack for now
 #define WINDOW_HEAT_TRANSFER_COEFFICIENT 0.1
-/// a hack to help make vacuums "cold", sacrificing realism for gameplay
-#define HEAT_CAPACITY_VACUUM 7000
+/// a hack to help make vacuums ~~"cold"~~, sacrificing realism for gameplay
+#define HEAT_CAPACITY_VACUUM 0
 
 //FIRE
 #define FIRE_MINIMUM_TEMPERATURE_TO_SPREAD (150+T0C)
